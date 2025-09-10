@@ -1,9 +1,55 @@
+title {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(255, 255, 205);
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0.5;
+  background-color: white;
+}
+
 p {
-    width: 30px;
+  margin-bottom: 2px;
+  margin: 0.5rem;
+  color: black;
+  background: white;
 }
-img {
-    width :150px;
+
+nav a {
+  font-size: 1rem;
+  color: black;
+  transition: font-size 0.2s ease, color 0.2s ease;
+  background-color: white;
 }
-.title {
-    font-weight: bold;
+
+nav a:hover,
+nav a:focus {
+  font-size: 1.1rem;
+  color: #73aeed;
+}
+
+#sissejuhatus {
+  background-color: rgb(137, 239, 234);
+}
+
+#teooria {
+  background-color: lightcoral;
+}
+
+#video {
+  background-color: lightblue;
+}
+#kontakt {
+  background: lightskyblue;
+}
+
+footer {
+  background-color: rgb(255, 255, 176);
 }

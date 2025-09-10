@@ -1,16 +1,109 @@
 <!DOCTYPE html>
-<html>  
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Veebileht</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <img src="images/kivid.jpg" alt="kivid">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veebileht</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav aria-label="Põhinavigatsioon">
+        <a href="#sissejuhatus">Sissejuhatus</a>
+        <a href="#teooria">Teooria</a>
+        <a href="#video">Video</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <img
+      src="images/kivid.jpg"
+      alt="Õppeveebi heropilt"
+      width="100%"
+      height="400"
+    />
+
+    <main>
+      <section id="sissejuhatus">
+        <h2>Sissejuhatus</h2>
+        <p>Mis on HTML?</p>
+        <p>
+          HTML (lühend sõnadest HyperText Markup Language ehk hüperteksti
+          märgistuskeel) on keel, millega tehakse veebilehti. Veebilehti, mis on
+          HTML-failid, vaatame tavaliselt veebibrauseris. HTML abil jagatakse
+          veebilehe sisu ja selle välimus eraldi. See keel ütleb, kuidas
+          veebileht on üles ehitatud, aga ei määra, kuidas see välja näeb.
+          Välimuse ja muud kujundused tehakse juurde skriptide, näiteks
+          JavaScripti ja CSS-iga.
+        </p>
+        <a href="#sissejuhatus">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
+            alt="Ava sissejuhatus"
+            width="200"
+            height="200"
+          />
+        </a>
+      </section>
+
+      <section id="teooria">
+        <h2>Teooria</h2>
+        <p>HTML tähendus.</p>
+        <p>
+          HTML-dokument koosneb elementidest, mille järgi kuvab brauser
+          dokumendi sisu. Iga element on veebilehe lähtekoodis tähistatud
+          vastavate märgendite abil.
+        </p>
+        <a
+          href="https://www.pexels.com/search/html/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="Unsplash näidispilt"
+            width="200"
+            height="200"
+            loading="lazy"
+          />
+        </a>
+      </section>
+
+      <section id="video">
+        <h2>Video</h2>
+        <video controls width="640" height="360">
+          <source src="images/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
         <p class="title">Markus Laanes</p>
         <p>Tartu Voco õpilane</p>
-    </body> 
 
-    
+        <svg
+          role="img"
+          aria-labelledby="ic-title ic-desc"
+          width="44"
+          height="44"
+          viewBox="0 0 24 24"
+        >
+          <title id="ic-title">VOCO ikoon</title>
+          <desc id="ic-desc">Ringis i-täht</desc>
+          <circle cx="12" cy="12" r="12" fill="gray" />
+          <text
+            x="12"
+            y="14"
+            text-anchor="middle"
+            font-size="10"
+            fill="#FFFFFF"
+          >
+            voco
+          </text>
+        </svg>
+      </section>
+    </main>
+    <footer>© 2025</footer>
+  </body>
 </html>
