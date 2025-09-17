@@ -1,5 +1,7 @@
-title {
+.title {
   font-weight: bold;
+  font-size: 1.1rem;
+  color: #000000;
 }
 
 body {
@@ -7,49 +9,92 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: rgb(255, 255, 205);
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-size: 2rem;
-  margin: 2rem 0.5;
-  background-color: white;
+  margin: 1.5rem 0;
+  padding: 0;
+  border-radius: 20px;
+  color: #2b2a2a;
+  box-shadow: 1px 2px 5px rgb(0, 0, 0);
+  text-align: center;
 }
 
 p {
-  margin-bottom: 2px;
-  margin: 0.5rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem;
   color: black;
   background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0, 0, 0);
 }
 
 nav a {
   font-size: 1rem;
-  color: black;
-  transition: font-size 0.2s ease, color 0.2s ease;
-  background-color: white;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background-color: rgb(253, 253, 253);
+  display: inline-block;
+  border: 0.5px solid #27272788;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 nav a:hover,
 nav a:focus {
   font-size: 1.1rem;
-  color: #73aeed;
+  color: #56a8ff;
+}
+
+#sissejuhatus h2 {
+  background-color: rgb(137, 239, 234);
+  text-align: center;
 }
 
 #sissejuhatus {
   background-color: rgb(137, 239, 234);
 }
 
+#teooria h2 {
+  background-color: lightcoral;
+  text-align: center;
+}
+
 #teooria {
   background-color: lightcoral;
+}
+
+#video h2 {
+  background-color: lightblue;
+  text-align: center;
 }
 
 #video {
   background-color: lightblue;
 }
+
+video {
+  width: 80%;
+  max-width: 600px;
+}
+
+#kontakt h2 {
+  background: lightskyblue;
+  text-align: center;
+}
+
 #kontakt {
   background: lightskyblue;
 }
 
 footer {
   background-color: rgb(255, 255, 176);
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
 }

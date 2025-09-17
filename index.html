@@ -16,7 +16,7 @@
         <a href="#kontakt">Kontakt</a>
       </nav>
     </header>
-
+    <a class="skip-link" href="#sissejuhatus">Alusta algusest</a>.
     <img
       src="images/kivid.jpg"
       alt="Õppeveebi heropilt"
@@ -43,6 +43,7 @@
             alt="Ava sissejuhatus"
             width="200"
             height="200"
+            max-width="100%"
           />
         </a>
       </section>
@@ -51,9 +52,33 @@
         <h2>Teooria</h2>
         <p>HTML tähendus.</p>
         <p>
-          HTML-dokument koosneb elementidest, mille järgi kuvab brauser
-          dokumendi sisu. Iga element on veebilehe lähtekoodis tähistatud
-          vastavate märgendite abil.
+          HTML ehk HyperText Markup Language on veebilehtede põhikeel, mida
+          kasutatakse lehe sisu struktuuri loomiseks ja korraldamiseks. HTML-i
+          abil saab määratleda, kuidas veebilehe erinevad osad — tekstid,
+          pealkirjad, lõigud, pildid, lingid, tabelid, vormid ja loendid —
+          brauseris kuvatakse. See ei ole programmeerimiskeel, vaid
+          märgendikeel, mis kirjeldab, kuidas sisu korraldada ja esitada.
+          Märgendite abil saavad brauserid aru, milline osa sisust on pealkiri,
+          milline lõik, milline link või pilt.Iga HTML-dokument koosneb
+          elementidest, mida tähistatakse avava ja sulguva märgendiga. Märgendid
+          võivad sisaldada teksti või teisi elemente, luues hierarhilise
+          struktuuri, mis võimaldab veebilehtedel olla loogilised ja hästi
+          organiseeritud. Lisaks saab elementidele lisada atribuutide kaudu
+          täiendavat infot, näiteks lingi sihtkoha, pildi alternatiivteksti või
+          elemendi identifikaatori. See võimaldab luua ligipääsetavamaid ja
+          interaktiivsemaid veebilehti ning annab arendajatele rohkem kontrolli
+          sisu esitamise üle.HTML on veebiarenduse alus ja seda kasutatakse koos
+          CSS-i ja JavaScriptiga. CSS-i abil kujundatakse lehe visuaalne
+          välimus, näiteks värvid, fondid ja paigutus, ning JavaScript võimaldab
+          lisada funktsionaalsust ja interaktiivsust. Tänapäeva veebilehed
+          tuginevad HTML-ile igal sammul, kuna see kindlustab sisu struktuuri,
+          seadmetevahelise ühilduvuse ning ligipääsetavuse. Hea HTML struktuur
+          on oluline nii arendajatele kui ka otsingumootoritele, sest see aitab
+          lehe sisu mõista ja optimeerida.Kokkuvõttes on HTML veebilehtede
+          põhiline struktuurielement, mille teadmised on iga veebiarendaja jaoks
+          hädavajalikud. See annab aluse kõigile veebilehtedele ja -rakendustele
+          ning on kombinatsioonis CSS-i ja JavaScriptiga võimas vahend
+          kaasaegsete interaktiivsete veebikogemuste loomiseks.
         </p>
         <a
           href="https://www.pexels.com/search/html/"
@@ -63,7 +88,10 @@
           <img
             src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt="Unsplash näidispilt"
+            target="_blank"
+            rel="noopener"
             width="200"
+            max-width="100%"
             height="200"
             loading="lazy"
           />
@@ -72,7 +100,7 @@
 
       <section id="video">
         <h2>Video</h2>
-        <video controls width="640" height="360">
+        <video controls>
           <source src="images/video.mp4" type="video/mp4" />
         </video>
       </section>
@@ -80,17 +108,10 @@
       <section id="kontakt">
         <h2>Kontakt</h2>
         <p class="title">Markus Laanes</p>
-        <p>Tartu Voco õpilane</p>
+        <p class="title">Tartu Voco õpilane</p>
 
-        <svg
-          role="img"
-          aria-labelledby="ic-title ic-desc"
-          width="44"
-          height="44"
-          viewBox="0 0 24 24"
-        >
+        <svg role="img" width="44" height="44" viewBox="0 0 24 24">
           <title id="ic-title">VOCO ikoon</title>
-          <desc id="ic-desc">Ringis i-täht</desc>
           <circle cx="12" cy="12" r="12" fill="gray" />
           <text
             x="12"
