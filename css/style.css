@@ -15,7 +15,8 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  max-width: 800px;
+  width: 800px;
+  max-width: 90%;
   margin: 1.5rem auto;
   padding: 0;
   border-radius: 20px;
@@ -27,7 +28,8 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  max-width: 600px;
+  width: 600px;
+  max-width: 80%;
   margin: 1.5rem auto;
   padding: 0;
   border-radius: 20px;
@@ -38,7 +40,8 @@ h2 {
 
 p {
   margin: 0.5rem auto;
-  max-width: 500px;
+  width: 500px;
+  max-width: 70%;
   padding: 0.5rem 1rem;
   color: black;
   background: rgb(255, 255, 255);
@@ -46,6 +49,12 @@ p {
   box-shadow: 0 1px 3px rgb(0, 0, 0);
   text-align: justify;
   text-align-last: center;
+}
+
+@media (max-width: 768px) {
+  p {
+    text-align: center;
+  }
 }
 
 nav {
